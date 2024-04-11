@@ -107,6 +107,8 @@ console.log(hours2) // 25
 const hours3 = (tt / m3);
 console.log(hours3) // 20
 
+`60 makes the most sense because the trip time is shorted but you have enough money to cover in gas`
+
 
 
 
