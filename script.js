@@ -81,7 +81,6 @@ const g1 = 30;
 const g2 = 28;
 const g3 =23;
 const g = 3;
-const budget = 175;
 const tt = 1500; // totaltrip
 
 // How mnay gallons needed
@@ -91,6 +90,14 @@ const compGal1= (tt / g2); // 53.57
 console.log(compGal1)
 const compGal2 = (tt / g3); // 65.22
 console.log(compGal2)
+
+// calculating if budget is enough for fuel expense
+const budget1 = (tt / g1 * g) 
+console.log(budget1) // $150, it will be enough
+const budget2 = (tt / g2 * g) 
+console.log(budget2) // $160.71, it will be enough
+const budget3 = (tt / g3 * g) 
+console.log(budget3) // $195.65, it will not be enough
 
 // 
 
