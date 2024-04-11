@@ -51,4 +51,7 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
 const divBy5 = (n1 % 5) +  (n2 % 5) + (n3 % 5) + (n4 % 5) === 0
 console.log(divBy5) // true
 
-// Part 2
+// Checking if the first number is larger than the last
+const isLarger = (n1 > n4);
+console.log(isLarger) // true
+
