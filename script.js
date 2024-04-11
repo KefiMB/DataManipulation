@@ -99,7 +99,13 @@ console.log(budget2) // $160.71, it will be enough
 const budget3 = (tt / g3 * g) 
 console.log(budget3) // $195.65, it will not be enough
 
-// 
+// How long will the trip take
+const hours1 = (tt / m1);
+console.log(hours1) // 27 hours
+const hours2 = (tt / m2);
+console.log(hours2) // 25
+const hours3 = (tt / m3);
+console.log(hours3) // 20
 
 
 
