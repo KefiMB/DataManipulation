@@ -55,3 +55,22 @@ console.log(divBy5) // true
 const isLarger = (n1 > n4);
 console.log(isLarger) // true
 
+// Subtracting the first number from the second
+const subtract = (n2 - n1)
+console.log(subtract) // 5
+
+// Multiplying the result by the third number
+const multiplyResult = (5 * n3)
+console.log(multiplyResult) // 100
+
+// Finding the remainder of dividing the result by the fourth number
+const findRemainder =  (100 / n4)
+console.log(findRemainder) // 20
+
+// Changing the way that isOver25 calculates so that we do not need to 
+// use the NOT operator (!) in other logic comparisons
+let isNotOver25 = (n1 != 25) && (n2 != 25) && (n3 != 25) && (n4 != 25);
+console.log(isNotOver25) // true
+
+
+
