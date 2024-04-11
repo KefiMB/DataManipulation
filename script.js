@@ -1,3 +1,5 @@
+console.log('JS is connected!!!');
+
 // The initial numbers that must be verified.
 const n1 = 10;
 const n2 = 15;
@@ -43,3 +45,10 @@ const dontDoThis = ((n1 + n2 + n3 + n4) == 50) &&
   ((n1 % 2) + (n2 % 2) + (n3 % 2) + (n4 % 2) >= 2) && 
   !(n1 > 25 || n2 > 25 || n3 > 25 || n4 > 25) && 
   (n1 != n2 && n1 != n3 && n1 != n4 && n2 != n3 && n2 != n4 && n3 != n4);
+
+  // Part 1
+// Checking if all numbers are divisible by 5
+const divBy5 = (n1 % 5) +  (n2 % 5) + (n3 % 5) + (n4 % 5) === 0
+console.log(divBy5) // true
+
+// Part 2
