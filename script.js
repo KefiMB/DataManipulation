@@ -72,5 +72,30 @@ console.log(findRemainder) // 20
 let isNotOver25 = (n1 != 25) && (n2 != 25) && (n3 != 25) && (n4 != 25);
 console.log(isNotOver25) // true
 
+// Part 2
+// Declaring variables
+const m1 = 55;
+const m2 = 60;
+const m3 = 75 ;
+const g1 = 30;
+const g2 = 28;
+const g3 =23;
+const g = 3;
+const budget = 175;
+const tt = 1500; // totaltrip
+
+// How mnay gallons needed
+let comparisonGal = (tt / g1); // 50
+console.log(comparisonGal)
+const compGal1= (tt / g2); // 53.57
+console.log(compGal1)
+const compGal2 = (tt / g3); // 65.22
+console.log(compGal2)
+
+// 
+
+
+
+
 
 
